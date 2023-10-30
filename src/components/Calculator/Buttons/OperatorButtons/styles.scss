@@ -1,0 +1,11 @@
+.operator-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 80%;
+
+  button {
+    height: 100%;
+    background-color: hsl(267, 72%, 63%);
+  }
+}

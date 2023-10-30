@@ -1,0 +1,13 @@
+@import "../../../sass/variables";
+
+.calculator-button {
+  background-color: $tri-color;
+  font-size: 1.5rem;
+  border: 1px $main-color solid;
+
+  &:active,
+  &:hover {
+    cursor: pointer;
+    filter: brightness(1.1);
+  }
+}

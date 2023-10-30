@@ -1,0 +1,14 @@
+.number-buttons {
+  width: 75%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+
+  button {
+    width: 33.33%;
+
+    &:nth-child(10) {
+      width: 66.66%;
+    }
+  }
+}
